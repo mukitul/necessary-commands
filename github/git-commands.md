@@ -9,3 +9,13 @@ git remote set-url origin <repo-url>
 ```
 git clone --single-branch --branch <branchname> <remote-repo>
 ```
+
+### Git Remote Repository URL
+```
+git config --get remote.origin.url 
+```
+
+### Git Remote Repository URL (with details)
+```
+git remote show origin 
+```
