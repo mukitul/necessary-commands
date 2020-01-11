@@ -8,6 +8,8 @@
     - [What is happening here](#####What-is-happening-here)
     - [Use MySql From Console](#####Use-MySql-From-Console)
 * [Use PhpMyAdmin in Docker](###Use-PhpMyAdmin-in-Docker)
+    - [Pull PhpMyAdmin Image](#####Pull-PhpMyAdmin-Image)
+    - [Connect PhpMyAdmin Container with MySql Container](#####Connect-PhpMyAdmin-Container-with-MySql-Container)
 
 ### Frequently Used Commands
 - Pull any image: `docker pull <image-name:tag>`
