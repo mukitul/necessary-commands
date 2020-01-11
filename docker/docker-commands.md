@@ -1,5 +1,17 @@
 ## Docker Commands
 
+
+### Frequently Used Commands
+- Pull any image: `docker pull <image-name:tag>`
+- Show all images: `docker images`
+- Show all running images (Containers): `docker ps`
+- Kill all running containers: `docker kill $(docker ps -q)`
+- Delete all containers (running or stopped): `docker rm -f $(docker ps -qa)`
+- Delete stopped containers: `docker rm -v $(docker ps -a -q -f status=exited)`
+- Delete all images: `docker rmi $(docker images -q)`
+- check the CPU, memory, and network I/O usage of a single container: `docker stats <container>`
+
+
 ### Build Image from DockerFile 
 ```
 docker build -t frontend .
@@ -11,16 +23,6 @@ docker run -d -p 4200:8080 --name frontendrun frontend
 
 docker run -d -p host_os_port:container_os_port --name container_name img_name
 ```
-
-### Common Commands
-- Pull any image: `docker pull <image-name:tag>`
-- Show all images: `docker images`
-- Show all running images (Containers): `docker ps`
-- Kill all running containers: `docker kill $(docker ps -q)`
-- Delete all containers (running or stopped): `docker rm -f $(docker ps -qa)`
-- Delete stopped containers: `docker rm -v $(docker ps -a -q -f status=exited)`
-- Delete all images: `docker rmi $(docker images -q)`
-- check the CPU, memory, and network I/O usage of a single container: `docker stats <container>`
 
 ### Docker MySql
 ```
