@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae3e1b46-9745-4dfa-aea2-f84828e8b014" name="Default Changelist" comment="" />
+    <list default="true" id="ae3e1b46-9745-4dfa-aea2-f84828e8b014" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/docker-commands.md" beforeDir="false" afterPath="$PROJECT_DIR$/docker/docker-commands.md" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -15,37 +18,38 @@
     <session id="-2083439582">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="md" value="18" />
+          <entry key="md" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Markdown" value="15" />
+          <entry key="Markdown" value="16" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="1919" />
+          <entry key="md" value="1928" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="1894" />
+          <entry key="Markdown" value="1903" />
           <entry key="PLAIN_TEXT" value="25" />
         </counts>
       </usages-collector>
@@ -54,11 +58,11 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/maven-spring-boot/sp-boot-maven.md">
+        <entry file="file://$PROJECT_DIR$/docker/docker-commands.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="261">
-                <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <first_editor relative-caret-position="210">
+                <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
               </first_editor>
               <second_editor />
             </state>
@@ -75,11 +79,11 @@
       <list>
         <option value="$PROJECT_DIR$/references/docker.md" />
         <option value="$PROJECT_DIR$/references/docker-ref.md" />
-        <option value="$PROJECT_DIR$/docker/docker-commands.md" />
         <option value="$PROJECT_DIR$/ports/port-commands.md" />
         <option value="$PROJECT_DIR$/github/git-commands.md" />
         <option value="$PROJECT_DIR$/references/ports-ref.md" />
         <option value="$PROJECT_DIR$/maven-spring-boot/sp-boot-maven.md" />
+        <option value="$PROJECT_DIR$/docker/docker-commands.md" />
       </list>
     </option>
   </component>
@@ -113,7 +117,7 @@
             <path>
               <item name="necessary-commands" type="b2602c69:ProjectViewProjectNode" />
               <item name="necessary-commands" type="462c0819:PsiDirectoryNode" />
-              <item name="github" type="462c0819:PsiDirectoryNode" />
+              <item name="docker" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -160,16 +164,19 @@
       <workItem from="1577160670238" duration="1068000" />
       <workItem from="1577333786364" duration="820000" />
       <workItem from="1578464698213" duration="2665000" />
+      <workItem from="1578800265239" duration="1435000" />
+      <workItem from="1578809354105" duration="85000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27554000" />
+    <option name="totallyTimeSpent" value="29074000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="28" width="1366" height="706" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15871833" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15871833" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -181,8 +188,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49776453" visible="true" weight="0.3882979" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5022355" side_tool="true" weight="0.43617022" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49701938" visible="true" weight="0.38120568" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50298065" side_tool="true" weight="0.3386525" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -235,7 +242,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/references/docker-ref.md">
-      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor>
@@ -244,16 +250,7 @@
           <second_editor />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker/docker-commands.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-221">
-            <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
+      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/github/git-commands.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -270,6 +267,16 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="261">
             <caret line="18" selection-start-line="18" selection-end-line="18" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker/docker-commands.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="210">
+            <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           </first_editor>
           <second_editor />
         </state>

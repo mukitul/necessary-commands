@@ -19,8 +19,8 @@
 - Delete all containers (running or stopped): `docker rm -f $(docker ps -qa)`
 - Delete stopped containers: `docker rm -v $(docker ps -a -q -f status=exited)`
 - Delete all images: `docker rmi $(docker images -q)`
-- check the CPU, memory, and network I/O usage of a single container: `docker stats <container>`
-
+- Check the CPU, memory, and network I/O usage of a single container: `docker stats <container>`
+- Get a Docker container's IP address from the host: `docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' container_name_or_id`
 
 ### Build Image from DockerFile 
 ```
