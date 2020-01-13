@@ -15,6 +15,8 @@
 - Pull any image: `docker pull <image-name:tag>`
 - Show all images: `docker images`
 - Show all running images (Containers): `docker ps`
+- Show all STOPPED or RUNNING containers: `docker ps -a`
+- Start a STOPPED container: `docker start container-name`
 - Kill all running containers: `docker kill $(docker ps -q)`
 - Delete all containers (running or stopped): `docker rm -f $(docker ps -qa)`
 - Delete stopped containers: `docker rm -v $(docker ps -a -q -f status=exited)`
