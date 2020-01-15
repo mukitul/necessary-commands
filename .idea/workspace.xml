@@ -15,7 +15,7 @@
     <session id="-2083439582">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
+          <entry key="project.closed" value="14" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.10" value="1" />
@@ -26,7 +26,8 @@
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -59,7 +60,7 @@
         <entry file="file://$PROJECT_DIR$/docker/docker-commands.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="270">
+              <first_editor relative-caret-position="267">
                 <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
               </first_editor>
               <second_editor />
@@ -165,11 +166,12 @@
       <workItem from="1578800265239" duration="1435000" />
       <workItem from="1578809354105" duration="1967000" />
       <workItem from="1578890678324" duration="1318000" />
+      <workItem from="1578974977365" duration="223000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32274000" />
+    <option name="totallyTimeSpent" value="32497000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="28" width="1366" height="706" extended-state="6" />
@@ -186,7 +188,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49701938" visible="true" weight="0.38297874" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49701938" visible="true" weight="0.38475177" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50298065" side_tool="true" weight="0.3386525" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -240,7 +242,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/references/docker-ref.md">
-      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor>
@@ -249,6 +250,7 @@
           <second_editor />
         </state>
       </provider>
+      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/github/git-commands.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -273,7 +275,7 @@
     <entry file="file://$PROJECT_DIR$/docker/docker-commands.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="270">
+          <first_editor relative-caret-position="267">
             <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
           </first_editor>
           <second_editor />
