@@ -1,6 +1,6 @@
 # Docker
 
-<img align="right" width="250" height="250" src="./img/docker-img.png">
+<img align="right" width="200" height="200" src="./img/docker-img.png">
 
 - [All in One](./docker/docker-commands-all-in-one.md)
 - [Frequently Used Docker Commands](./docker/docker-frequently-used-commands.md)
