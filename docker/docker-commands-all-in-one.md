@@ -71,6 +71,6 @@ Traditionally we may need to install xampp in our machine to use mysql and phpmy
 
 ##### Connect PhpMyAdmin Container with MySql Container
 ```
-2. docker run --name my-own-phpmyadmin -d --link my-mysql:db -p 8081:80 phpmyadmin/phpmyadmin
+2. docker run --name my-own-phpmyadmin -d --link mysql-db:db -p 8081:80 phpmyadmin/phpmyadmin
 ```
 The option `--link` provides access to another container running in the host. In our case the container is the one created in the previous section, called `mysql-db`.
