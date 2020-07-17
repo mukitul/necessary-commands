@@ -16,4 +16,4 @@
 
 
 # VS-Code Shortcut
--[VS-Code Shortcut List](./vs-code-shortcut/vs-code-sc.md)
+- [VS-Code Shortcut List](./vs-code-shortcut/vs-code-sc.md)
