@@ -13,3 +13,7 @@
 # References
 1. [Docker Cheat-Sheet](https://github.com/wsargent/docker-cheat-sheet)
 2. [How to check if port is in use on Linux or Unix](https://www.cyberciti.biz/faq/unix-linux-check-if-port-is-in-use-command/)
+
+
+# VS-Code Shortcut
+-[VS-Code Shortcut List](./vs-code-shortcut/vs-code-sc.md)
