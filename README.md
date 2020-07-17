@@ -10,11 +10,6 @@
 - [Run MySql and PhpMyAdmin Container Together by executing step by step Docker Commands](./docker/run-mysql-phpmyadmin-together.md)
 
 
-# References
-1. [Docker Cheat-Sheet](https://github.com/wsargent/docker-cheat-sheet)
-2. [How to check if port is in use on Linux or Unix](https://www.cyberciti.biz/faq/unix-linux-check-if-port-is-in-use-command/)
-
-
 # Git Related
 - [Frequently Used Git Commands](./github/git-commands.md)
 
@@ -25,3 +20,9 @@
 
 # VS-Code Shortcut
 - [VS-Code Shortcut List](./vs-code-shortcut/vs-code-sc.md)
+
+
+
+# References
+1. [Docker Cheat-Sheet](https://github.com/wsargent/docker-cheat-sheet)
+2. [How to check if port is in use on Linux or Unix](https://www.cyberciti.biz/faq/unix-linux-check-if-port-is-in-use-command/)
