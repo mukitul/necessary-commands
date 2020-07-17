@@ -62,3 +62,8 @@ git remote show origin
 ```
 git branch -a
 ```
+
+## Remove Creadential and Ask for It
+```
+git config --global credential.github.com.useHttpPath true
+```
