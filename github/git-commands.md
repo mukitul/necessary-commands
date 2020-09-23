@@ -62,7 +62,15 @@ git remote show origin
 ```
 git branch -a
 ```
-
+## Delete
+- Delete branch locally:
+```
+git branch -d <branch-name>
+```
+- Delete branch remotely
+```
+git push origin --delete <branch-name>
+```
 ## Remove Creadential and Ask for It
 ```
 git config --global credential.github.com.useHttpPath true
