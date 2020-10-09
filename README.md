@@ -19,7 +19,7 @@
 
 
 # SSL-SpringBoot Related
-- [SSL Related Configuration in Spring Boot](./ssl-spring-boot/sp-boot-maven.md)
+- [SSL Related Configuration in Spring Boot](./ssl-spring-boot/sp-boot-ssl.md)
 
 
 # VS-Code Shortcut
