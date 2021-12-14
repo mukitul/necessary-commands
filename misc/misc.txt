@@ -1,0 +1,54 @@
+#start-stop-status
+sudo systemctl start docker.socket
+sudo systemctl stop docker.socket
+sudo systemctl status docker
+
+
+#redis
+sudo docker run --name redis-one -d redis
+docker exec -it redis-one sh
+redis-cli
+
+#oracle
+docker pull store/oracle/database-enterprise:12.2.0.1-slim
+docker run -d -p 1521:1521 --name oracle-db-slim store/oracle/database-enterprise:12.2.0.1-slim
+
+
+
+#jvm 
+/usr/lib/jvm/java-8-openjdk-amd64
+
+#sqldeveloper
+rpm2cpio ~/Downloads/sqldeveloper-21.2.1-204.1703.noarch.rpm | cpio -idmv
+
+
+Container Database:
+
+Username: SYS
+Role: SYSDBA
+Password: Oradoc_db1
+Host: localhost
+SID: ORCLCDB
+
+Pluggable Database:
+
+Username: SYS
+Role: SYSDBA
+Password: Oradoc_db1
+Host: localhost
+Service Name: ORCLPDB1.localdomain
+
+
+#Password-update
+passwd
+
+#language-region
+united-state
+
+
+#make executable file
+chmod +x <fileName>.sh
+
+#profile-setup-git
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
