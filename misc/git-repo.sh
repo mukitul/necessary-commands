@@ -1,9 +1,10 @@
 user="oauth2"
-token=""
+token="K9o9riV-VxizHsCRsSdX"
 host_name="gitlab.robi.com.bd"
 team_name="subscriber-verification-system"
+group_name="svs-core"
 
-url_main_part="https://"$user":"$token"@"$host_name"/"$team_name"/"
+url_main_part="https://"$user":"$token"@"$host_name"/"$team_name"/"group_name"/"
 
 repo_list=(
 $url_main_part'svs-profiledb-entity.git'

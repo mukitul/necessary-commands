@@ -49,6 +49,10 @@ united-state
 #make executable file
 chmod +x <fileName>.sh
 
+
+#copy file one-folder to another
+cp filname /targetfoler
+
 #profile-setup-git
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
