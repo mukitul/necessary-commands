@@ -16,8 +16,11 @@ $url_main_part'digital-acquisition-web.git'
 $url_main_part'ecrm-codebase.git'
 )
 
+echo START Number of Repositories: "${#repo_list[@]}"
 
 for repo in ${repo_list[@]}; do
-    #echo $repo
-    git clone $repo
+    echo $url_main_part$repo
+    #git clone $url_main_part$repo
 done
+
+echo END Number of Repositories: "${#repo_list[@]}"
