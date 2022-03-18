@@ -7,13 +7,13 @@ group_name="digital-acquisition"
 url_main_part="https://"$user":"$token"@"$host_name"/"$team_name"/"$group_name"/"
 
 repo_list=(
-$url_main_part'digital-acquisition-nll.git'
+digital-acquisition-nll.git
 
-$url_main_part'digital-acquisition-admin-panel-web.git'
+digital-acquisition-admin-panel-web.git
 
-$url_main_part'digital-acquisition-web.git'
+digital-acquisition-web.git
 
-$url_main_part'ecrm-codebase.git'
+ecrm-codebase.git
 )
 
 echo START Number of Repositories: "${#repo_list[@]}"
