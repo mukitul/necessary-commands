@@ -1,5 +1,5 @@
 #!/bin/bash
-user="oauth2"
+user=""
 name="name"
 
 

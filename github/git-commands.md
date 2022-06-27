@@ -75,3 +75,10 @@ git push origin --delete <branch-name>
 ```
 git config --global credential.github.com.useHttpPath true
 ```
+
+## Setup Github profile from cmd
+```
+git config --global user.email "you@example.com"
+
+git config --global user.name "Your Name"
+```
