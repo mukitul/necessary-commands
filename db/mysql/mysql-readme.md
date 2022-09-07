@@ -20,4 +20,8 @@
 2. show databases;
 3. use databaseName;
 4. show tables;
+5. show variables like "max_connections"; 
+6. show status where `variable_name` = 'Threads_connected';
+7. show processlist;
+8. SET GLOBAL max_connections = 20;
 
