@@ -11,17 +11,46 @@
 ## START MYSQL
 - Start MySQL server from services
 
+## CONFIGURATION RELATED COMMANDS
+- Show maximum number of connections
+  ```
+  show variables like "max_connections";
+  ```
+- Set maximum number of connections
+  ```
+  SET GLOBAL max_connections = 20;
+  ```
+- Show number of thread connected
+  ```
+  show status where `variable_name` = 'Threads_connected';
+  ```
+- Show list of process
+  ```
+  show processlist;
+  ```
 
-## COMMANDS
+## BASIC COMMANDS
 
-1. mysql -u root -p
-    enter password
+- Login (default password: root)
+    
+  ```
+  mysql -u root -p
+  ```
 
-2. show databases;
-3. use databaseName;
-4. show tables;
-5. show variables like "max_connections"; 
-6. show status where `variable_name` = 'Threads_connected';
-7. show processlist;
-8. SET GLOBAL max_connections = 20;
+- Show list of databases
+    
+  ```
+  show databases;
+  ```
 
+- Select a databases
+    
+  ```
+  use yourDatabaseName;
+  ```
+
+- Show list of tables
+    
+  ```
+  show tables;
+  ```
