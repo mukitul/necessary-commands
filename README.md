@@ -11,6 +11,7 @@
 
 ## Git Related
 - [Frequently Used Git Commands](./github/git-commands.md)
+- [Open Git Bash From Context Menu in Windows](./github/open-git-bash.md)
 
 
 ## Maven-SpringBoot Related
@@ -31,11 +32,3 @@
 
 ## VS-Code Shortcut
 - [VS-Code Shortcut List](./vs-code-shortcut/vs-code-sc.md)
-
-
-
-
-
-## References
-1. [Docker Cheat-Sheet](https://github.com/wsargent/docker-cheat-sheet)
-2. [How to check if port is in use on Linux or Unix](https://www.cyberciti.biz/faq/unix-linux-check-if-port-is-in-use-command/)
