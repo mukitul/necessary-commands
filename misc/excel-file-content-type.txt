@@ -1,0 +1,4 @@
+XLAM=application/vnd.ms-excel.addin.macroEnabled.12
+XLSB=application/vnd.ms-excel.sheet.binary.macroEnabled.12
+XLSM=application/vnd.ms-excel.sheet.macroEnabled.12
+XLTM=application/vnd.ms-excel.template.macroEnabled.12
