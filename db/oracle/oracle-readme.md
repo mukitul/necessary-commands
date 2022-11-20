@@ -35,4 +35,10 @@ Above query will only grant `SELECT,DELETE,INSERT,UPDATE` operation.
 GRANT privilege-type ON [TABLE] { table-Name | view-Name } TO grantees
 ```
 
+## CHECK SEQUENCER EXISTENSE
+```
+SELECT your_sequencer_name.NEXTVAL
+FROM dual;
+```
+
 
