@@ -50,11 +50,6 @@ united-state
 chmod +x <fileName>.sh
 
 
-#copy file one-folder to another
-cp filname /targetfoler
-
-
-
 #upgrade-node
 sudo npm cache clean -f
 sudo npm install -g n
