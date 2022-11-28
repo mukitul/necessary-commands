@@ -28,6 +28,10 @@
 ## Scripting Example
 - [Shell Scripts Example](./scripts/shell/readme.md)
 - [Bash Scripts Example](./scripts/bash/readme.md)
+
+
+## Linux Command
+- [Linux Commands](./linux/linux-commands.md)
   
 
 ## VS-Code Shortcut
