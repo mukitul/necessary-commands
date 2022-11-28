@@ -24,7 +24,7 @@ lsof -i:PORT
 ```
 nohup java -jar JAR_FILE_NAME.jar >/dev/null 2>&1 --spring.profiles.active=PROFILE_NAME &
 ```
-#### Explanation of above commad
+#### Explanation of above command
 `nohup` - a short form for `no hang up`. This command prevents the processes from receiving the SIGHUP (Signal Hang Up) -  a signal which is sent to a process upon closing/existing/logout the terminal. So, `nohup` command keeps the process running even after exiting the terminal.
 
 `>/dev/null 2>&1` - operator `>` is called a redirection operator. It redirects the output to the file specified after it. In this case the specified file is `/dev/null`. But all the output is not redirected to `/dev/null` becasue of the last part of the command, which is - `2>&1`, this part means redirect `STDERR(2)` to `STDOUT(1)`. [Detail Explanation is here: https://www.linuxshelltips.com/redirect-output-in-linux/](https://www.linuxshelltips.com/redirect-output-in-linux/)
