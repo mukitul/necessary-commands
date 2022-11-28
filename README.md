@@ -21,16 +21,22 @@
 ## SSL-SpringBoot Related
 - [SSL Related Configuration in Spring Boot](./spring-boot/ssl-spring-boot/sp-boot-ssl.md)
 
+
 ## HikariCP-SpringBoot Related
 - [SSL Related Configuration in Spring Boot](./spring-boot/)
   
 
-## Scripting Example
+## Database Related
+- [MySql Queries](./db/mysql/mysql-readme.md)
+- [Oracle Queries](./db/oracle/oracle-readme.md)
+
+
+## Scripting Related
 - [Shell Scripts Example](./scripts/shell/readme.md)
 - [Bash Scripts Example](./scripts/bash/readme.md)
 
 
-## Linux Command
+## Linux Command Related
 - [Linux Commands](./linux/linux-commands.md)
   
 

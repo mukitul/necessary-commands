@@ -41,4 +41,15 @@ SELECT your_sequencer_name.NEXTVAL
 FROM dual;
 ```
 
+## CREATE A SEQUENCE
+```
+CREATE SEQUENCE your_sequence_name
+INCREMENT BY 25
+START WITH 100
+NOMAXVALUE
+MINVALUE 1
+CACHE 20
+ORDER;
+```
+
 
